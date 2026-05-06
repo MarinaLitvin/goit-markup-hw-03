@@ -1,0 +1,25 @@
+.header {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+.header nav a {
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.header .logo {
+    color: #2e2f42;
+}
+
+.header address a { 
+    color: #434455;
+    font-style: normal;
+}
+
+.header nav a:hover,
+.header nav a:focus,
+.header address a:hover,
+.header address a:focus {
+    color: #404BBF;
+}
