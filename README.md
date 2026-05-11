@@ -1,2 +1,2 @@
 # goit-hw-01
-It's my third repository!
+It's my third project!
