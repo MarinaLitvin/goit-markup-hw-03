@@ -1,4 +1,19 @@
-.features h2,
-.features h3 {
+.features-section {
+    width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-item-list {
+    display: flex;
+    gap: 24px;
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-section h2,
+.features-section h3 {
     color: #2E2F42;
 }
