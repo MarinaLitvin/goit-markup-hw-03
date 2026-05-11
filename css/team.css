@@ -16,6 +16,7 @@
     width: calc((100% - 72px) / 4);
 }
 
-.team-card-text {
+.team-card-notation {
     padding-bottom: 32px;
+    padding-top: 32px;
 }
