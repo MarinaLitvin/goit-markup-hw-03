@@ -6,7 +6,7 @@
 
 .main-title {
     text-align: center;
-    width: 496px;
+    max-width: 496px;
 }
 
 .button {
