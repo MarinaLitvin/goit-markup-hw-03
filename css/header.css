@@ -1,10 +1,10 @@
-.page-header {
+.page-header {    
     background-color: #FFFFFF;
     letter-spacing: 0.02em;    
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-list {
+.page-header .container {
     display: flex;
 }
 
