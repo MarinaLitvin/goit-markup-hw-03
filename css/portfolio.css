@@ -1,12 +1,11 @@
 .portfolio-section {
-    width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .portfolio-item-list {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
     margin-top: 72px;
 }
@@ -15,12 +14,11 @@
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item-notation {
-    border-bottom: 1px solid #F4F4FD;
-    border-left: 1px solid #F4F4FD;
-    border-right: 1px solid #F4F4FD;
+.portfolio-item-capture {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
     padding-bottom: 32px;
-    padding-top: 32px;
     padding-left: 16px;
     padding-right: 16px;
 }

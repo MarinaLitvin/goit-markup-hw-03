@@ -1,41 +1,45 @@
 .page-header {
-    width: 1440px;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;    
-    border-bottom: 1px solid ;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header-list {
     display: flex;
-    justify-content: space-between;
 }
 
 .header-nav-list {
     display: flex;
     column-gap: 40px;
-    margin-right: 332px;
+    margin-right: 340px;
     margin-left: 76px;;
 }
 
-.social-list {   
+.header-social-list {   
     font-style: normal;
     display: flex;
     column-gap: 40px;
 }
 
-.social-list a {
+.header-social-list a {
     color: #434455;
 }
+
 .header-nav-link {
     color: #2e2f42;
     font-weight: 500;
 }
 
 .header-logo {
-    color: #2e2f42;
-    
+    color: #2e2f42;    
+}
+
+.header-logo,
+.header-nav-link,
+.header-social-link {
+    display: block;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .header-nav-link:hover,
